@@ -24,8 +24,10 @@ class GUI{
 	//removes the class clickable from a square that has that class.
 	removeClickable(e){
 		
+		//Removes all selectableSquare classes from all squares
 		if(typeof e == "undefined"){
 			$(".selectableSquare").removeClass("selectableSquare");
+		//Removes selectableSquare only from the given element (e)
 		}else{
 			$(e).removeClass("selectableSquare");
 		}
