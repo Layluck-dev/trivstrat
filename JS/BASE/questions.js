@@ -1,0 +1,10 @@
+var questions = [	{q: "Wie heeft de telefoon uitgevonden?", a: "Alexander Graham Bell", b: "Albert Einstein", c: "Nikola Tesla", an: "A"},
+					{q: "welke nagel groeit het snelst?", a: "Wijsvinger", b: "Middelvinger", c: "Ringvinger", an: "B"},
+					{q: "Op welke temperatuur kookt water?", a: "99,8C", b: "100C", c: "100F", an: "B"},
+					{q: "Wie heeft anitibiotica ontdekt?", a: "Marie Curie", b: "John Hoover", c: "Alexander Fleming", an: "C"},
+					{q: "Wie heeft Julius Caesar, Macbeth en Hamlet geschreven?", a: "Chaikovski", b: "Isaac Arthur", c: "William Shakespeare", an: "C"},
+					{q: "Wie heeft Lazarillo de Tormes geschreven?", a: "Onbekend", b: "Columbus", c: "Hernán Cortés", an: "C"},
+					{q: "Wat slikte de krokodil in Peter Pan in?", a: "Koekepan", b: "Wekker", c: "Telefoon", an: "B"},
+					{q: "Waar was Lope de Vega geboren?", a: "Portugal", b: "Spanje", c: "Mexico", an: "B"},
+					{q: "Met wie is Diana Spencer getrouwd?", a: "Prins Charles", b: "George Bush", c: "Ivan Guille", an: "A"},
+					{q: "Waar ligt Basel?", a: "Zwitserland", b: "Duitsland", c: "Ostenrijk", an: "A"}];

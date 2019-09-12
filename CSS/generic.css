@@ -1,0 +1,165 @@
+@font-face {
+    font-family: orkney;
+    src: url(../RES/Orkney-Light.otf);
+}
+
+html{
+	background-color: #FFF9F9;
+	font-family: orkney;
+}
+
+.hidden{
+	position: relative;
+	left: -2000px;
+	max-width: 99%;
+}
+
+.Title{
+	color: #8c2b3d;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#wrapper{
+	position: realtive;
+	margin-top: 2%;
+	height: 97%;
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tableScreen{
+	position: relative;
+	max-width: 95%;
+	padding: 5px;
+}
+
+#selectionscreen td{
+	width: 30px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.selectable{
+	cursor: pointer;
+}
+
+.selectableSquare{
+	cursor: pointer;
+}
+
+#tablePlayers{
+	padding: 5px;
+	text-align: center;
+}
+
+#tablePlayers td{
+	padding: 3px;
+	font-weight: bold;
+}
+
+#p1{
+	color: #F00;
+}
+
+#p2{
+	color: #00F;
+}
+
+#p3{
+	color: #0F0;
+}
+
+#p4{
+	color: #EE0;
+}
+
+#arrowBack{
+	transform: rotate(180deg);
+}
+
+#container{
+	position: absolute;
+	background-color: #EDD;
+	width: 420px;
+	padding: 10px;
+	top: 30px;
+}
+
+#playingField{
+	width: 400px;
+}
+
+.square{
+	height: 22px;
+	width: 22px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #8c2b3d;
+	background-color: #FFF;
+}
+
+.board{
+	max-width: 58%;
+}
+
+#currentPlayer{
+	font-weight: bold;
+}
+
+#question{
+	font-weight: 2000;
+	font-size: 25px;
+}
+
+#answers{
+	background-color: #FEE;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2px;
+	max-width: 33%;
+}
+
+.answer{
+	margin: 5px;
+	padding: 5px;
+	background-color: #EDD;
+	cursor: pointer;
+	max-width: 100%;
+}
+
+.answer:hover{
+	background-color: #DCC;
+}
+
+#shade{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 4;
+}
+
+#message{
+	position: absolute;
+	width: 30%;
+	top: 20px;
+	left: 33%;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #FFF;
+	z-index: 5;
+}
+
+#X{
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	left: 95%;
+}
